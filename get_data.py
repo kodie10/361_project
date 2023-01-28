@@ -13,7 +13,7 @@ def get_info(return_query, parameter):
     querystring = return_query
 
     headers = {
-        "X-RapidAPI-Key": "c2290e0295mshc52b9a0d1c26836p1a7e2fjsn087a6d40e937",
+        "X-RapidAPI-Key": "",
         "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
     }
 
