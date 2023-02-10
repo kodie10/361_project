@@ -4,7 +4,7 @@ then they will wait for the response that will be JSON formatted string.
 example,
 
 context = zmq.Context()
-#  Socket to talk to server
+#Socket to talk to server
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
 socket.send_string(whatever they are sending)
